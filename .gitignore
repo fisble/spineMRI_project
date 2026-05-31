@@ -1,0 +1,23 @@
+# Model weights (too large for GitHub)
+models/
+*.pth
+
+# Dataset (stays on your machine)
+lab data/
+
+# Grad-CAM outputs and figures (optional - comment out if you want them)
+gradcam_outputs/
+paper_figures/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
